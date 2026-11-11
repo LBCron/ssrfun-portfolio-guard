@@ -1,0 +1,29 @@
+{
+  "name": "@lbcron/ssrfun-portfolio-guard",
+  "version": "1.0.0",
+  "description": "Autonomous Portfolio Optimizer, Reserve Valuation Engine, Risk Manager & Beta Auditor for SSR.FUN on Solana",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "ssrfun-guard": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:bun": "bun test"
+  },
+  "keywords": [
+    "solana",
+    "ssr-fun",
+    "tokenized-equities",
+    "portfolio-optimization",
+    "superteam",
+    "bounty",
+    "risk-management",
+    "defi"
+  ],
+  "author": "Ronan Chen Lopes (@LBCron) <ronanchenlopes@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
